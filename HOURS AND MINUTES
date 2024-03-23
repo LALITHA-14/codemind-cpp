@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int m,hours,minutes;
+    cin>>m;
+    hours=m/60;
+    minutes=m%60;
+    cout<<hours<<" Hour(s) "<<minutes<<" Minute(s)";
+}
