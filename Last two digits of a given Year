@@ -1,0 +1,10 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    int year;
+    cin>>year;
+    int m=year%100;
+    cout<<setfill('0')<<setw(2)<<m;
+}
